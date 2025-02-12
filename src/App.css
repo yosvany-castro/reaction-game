@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.game {
+   width: 150px;
+   height: 150px; 
+   background-color: red;
+}
+
+.end {
+    width: 150px;
+   height: 150px; 
+   background-color: green;   
+}
+
+.result {
+    display: inline;
+}
