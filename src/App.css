@@ -1,24 +1,20 @@
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.button {
-    margin-top: 10px;
+.square {
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
 }
-
-.game {
-   width: 150px;
-   height: 150px; 
-   background-color: red;
+.red {
+  background-color: red;
 }
-
-.end {
-    width: 150px;
-   height: 150px; 
-   background-color: green;   
+.green {
+  background-color: green;
 }
-
-.result {
-    display: inline;
+.hidden {
+  display: none;
 }
